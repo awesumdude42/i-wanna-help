@@ -8,6 +8,20 @@ export default defineConfig({
     nav: [
       { text: 'About', link: '/about' },
       { text: 'Guide', link: '/guide'}
-    ]
+    ],
+    sidebar:[
+      {
+        text: 'Getting Started',
+        collapsed: true,
+        items: [
+          { text: 'guide', link: '/guide' },
+        ]
+      }
+
+    ],
+    search: {
+      provider: 'local'
+    }
   }
+
 })
