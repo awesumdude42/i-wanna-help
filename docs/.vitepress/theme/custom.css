@@ -30,6 +30,10 @@
   border-color: #ff69b4;
 }
 
+.gradient-title-page {
+  color: 'yellow'
+}
+
 @keyframes supernova-slide {
   to {
     background-position: 200% center;
