@@ -70,7 +70,6 @@ hero:
     <div id="right-side">
       <div id="contain">
         <pre>
-```java
           path = follower.pathBuilder()
           .addPath(
             new BezierLine(scorePose, pickupPose)
@@ -89,7 +88,6 @@ hero:
           .build();
         follower.followPath(path);
         </pre>
-```
       </div>
     </div>
   </div>

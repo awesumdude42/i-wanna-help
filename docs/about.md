@@ -6,6 +6,7 @@ next:
 
 # Our Story { .gradient-title-page
 
+---
 # What Do Our Goals look like?
 Our mission is to develop the most efficient and versatile localizer for autonomous pathing,
 supporting swerve, mecanum, and tank drive as well as multiple localizers. We aim to use
