@@ -71,7 +71,7 @@ hero:
 <div id="contain">
 
 ::: code-group
-```kotlin [kotlin]
+```kotlin [Kotlin]
 val path = follower.pathBuilder()
     .addPath(
         BezierLine(scorePose, pickupPose)
@@ -90,7 +90,7 @@ val path = follower.pathBuilder()
     .build()
 ```
       
-```java [java]
+```java [Java]
 Path path = follower.pathBuilder()
     .addPath(
         new BezierLine(scorePose, pickupPose)
