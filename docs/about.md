@@ -26,6 +26,7 @@ We'd like to take a moment to thank them here:
 * 27621 - Heron - Alumni
 * 23571 - JEdison Knights - Alumni
 * 14708 - Short Circuits
+* 25957 - Quantum Igniters
 * and more...
   :::
 
