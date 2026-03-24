@@ -8,12 +8,16 @@ hero:
     - theme: brand
       text: Get Started
       link: /about
-  # image:
-  #   src: /images/apex_logo.png
-  #   alt: ApexPathing Logo
+  tagline: Autonomous pathing revolutionized
+  image:
+    src: /images/apex_logo.png
+    alt: ApexPathing Logo
+
+  
+
 ---
 
-<div id="content-holder-long" class="body-style">
+<!-- <div id="content-holder-long" class="body-style">
 <h1> Why you should choose Apex Pathing </h1>
   <div id="flex-box-grid" data-role="flex-hoverable" class="body-style">
     <div>
@@ -42,9 +46,10 @@ hero:
         <h3>This is an example</h3>
     </div>    
   </div>
-</div>
+</div> -->
 
 <div id="content-holder-long" class="body-style">
+
   <h1>Welcome to Apex Pathing</h1> 
   <p>Insert information here</p>
 </div>
@@ -70,24 +75,6 @@ hero:
 </div>
 
 
-<div id="content-holder-long" class="body-style">
-  <h1>Welcome to Apex Pathing</h1> 
-  <p>Insert information here</p>
-</div>
-
-<div id="content-holder-long" class="information-container">
-  <h1>Documentation</h1> 
-  <p>Insert information here</p>
-</div>
-<div id="content-holder-long" class="idk-container">
-  <div id="flex-box-grid" class="idk-container">
-    <div id="right-side">
-      <div id="contain">
-        <h1 style="text-align: center"> Documentation Information </h1>
-      </div>
-    </div>
-  </div>
-</div>
 
 
 <style>
