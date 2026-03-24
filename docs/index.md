@@ -9,8 +9,7 @@ hero:
       text: Get Started
       link: /about
   image:
-    dark: /images/apex_logo_dark.png
-    light: /images/apex_logo_light.png
+    src: /images/apex_logo.png
     alt: ApexPathing Logo
      
 ---
