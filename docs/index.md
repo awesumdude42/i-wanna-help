@@ -8,18 +8,18 @@ hero:
     - theme: brand
       text: Get Started
       link: /about
-  image:
-    dark: /images/apex_logo_dark.png
-    light: /images/apex_logo_light.png
-    alt: ApexPathing Logo
+  # image:
+  #   src: /images/apex_logo.png
+  #   alt: ApexPathing Logo
 ---
 
 <div id="content-holder-long" class="body-style">
 <h1> Why you should choose Apex Pathing </h1>
   <div id="flex-box-grid" data-role="flex-hoverable" class="body-style">
     <div>
-      <h1>We Aren't Going Anywhere.</h1>
-      <h3>Pedropathing is becoming harder to use, almost like a legacy. We wanted to improve pedro and allow newer people to understand it.</h3>
+      <img src="/images/apex_logo.png" width="50" height="20" alt="ApexPathing Logo">
+      <h1>Quintic Hermetic Splines</h1>
+      <h3>We use Quintic Hermetic Splines to do yada yada</h3>
     </div>
     <div>
         <h1>This is an example</h1>
