@@ -112,6 +112,48 @@ follower.followPath(path);
 ```
 
 :::
+::: code-group
+```kotlin [Kotlin {An example piece of code using ApexPathing: Quick, Concise, and easy-to-use}]
+val path = follower.pathBuilder()
+    .addPath(
+        BezierLine(scorePose, pickupPose)
+    )
+    .setLinearHeadingInterpolation(
+        scorePose.heading(),
+        pickupPose.heading()
+    )
+    .addPath(
+        BezierLine(pickupPose, scorePose)
+    )
+    .setLinearHeadingInterpolation(
+        pickupPose.heading,
+        scorePose.heading
+    )
+    .build()
+follower.followPath(path);
+```
+      
+```java [Java]
+Path path = follower.pathBuilder()
+    .addPath(
+        new BezierLine(scorePose, pickupPose)
+    )
+    .setLinearHeadingInterpolation(
+        scorePose.getHeading(),
+        pickupPose.getHeading()
+    )
+    .addPath(
+        new BezierLine(pickupPose, scorePose)
+    )
+    .setLinearHeadingInterpolation(
+        pickupPose.getHeading(),
+        scorePose.getHeading()
+    )
+    .build();
+follower.followPath(path);
+```
+
+:::
         
 </div>
 </div>
