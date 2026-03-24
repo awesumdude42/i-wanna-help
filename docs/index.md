@@ -46,7 +46,7 @@ hero:
         <h3>This is an example</h3>
     </div>    
   </div>
-</div> -->
+</div>
 
 <div id="content-holder-long" class="body-style">
 
@@ -57,18 +57,37 @@ hero:
 <div id="content-holder-long" class="body-style">
   <h1>Quintic Spline Based Pathing</h1> 
   <p>We use Quintic Splins to do [INFORMATION]</p>
-</div>
+</div> -->
 
 <div id="content-holder-long" class="idk-container">
   <div id="flex-box-grid" class="idk-container">
     <div id="left-side">
       <div id="contain">
-        <h1> Left </h1>
+        <h1> Welcome to Apex Pathing </h1>
+        <h3> insert info here yada yada yada yada yada yada yada yada yada yada yada yada yada yada yada yada  </h3>
       </div>
     </div>
     <div id="right-side">
       <div id="contain">
-        <h1> Right </h1>
+        <pre>
+          path = follower.pathBuilder()
+          .addPath(
+            new BezierLine(scorePose, pickupPose)
+          )
+          .setLinearHeadingInterpolation(
+            scorePose.getHeading(),
+            pickupPose.getHeading()
+          )
+          .addPath(
+            new BezierLine(pickupPose, scorePose)
+          )
+          .setLinearHeadingInterpolation(
+            pickupPose.getHeading(),
+            scorePose.getHeading()
+          )
+          .build();
+        follower.followPath(path);
+        </pre>
       </div>
     </div>
   </div>
@@ -81,8 +100,8 @@ hero:
    #flex-box-grid {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: dimgray;
-    padding: 5px;
+    background-color: transparent;
+    padding: 5px; 
     gap: 10px;
     column-gap: 10px;
     height: 25vw;
@@ -110,19 +129,19 @@ hero:
   }
    
 
-   #content-holder-long {
+   /* #content-holder-long {
       padding: 20px; 
       background-color: #333; 
       color: white;
       border-radius: 8px;
       margin-top: 20px;
-   }
+   } */
 
-  #content-holder-split {
+  /* #content-holder-split {
       padding: 20px; 
       background-color: #333; 
       color: white;
       border-radius: 8px;
       margin-top: 20px;
-   }
+   }  */
 </style>
