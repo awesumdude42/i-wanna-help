@@ -71,7 +71,7 @@ hero:
 <div id="contain">
 
 ::: code-group
-```kotlin [Kotlin]
+```kotlin [Kotlin {An example piece of code using ApexPathing: Quick, Concise, and easy-to-use}]
 val path = follower.pathBuilder()
     .addPath(
         BezierLine(scorePose, pickupPose)
